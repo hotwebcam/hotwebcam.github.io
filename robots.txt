@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /apk
+Disallow: /sass
+
+User-agent: GoogleBot
+Disallow: /apk
+Disallow: /sass
+
+User-agent: Yandex
+Disallow: /apk
+Disallow: /sass
+
+Sitemap: https://hotwebcam.github.io/sitemap.xml
+Host: hotwebcam.github.io
