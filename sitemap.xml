@@ -20,13 +20,13 @@
         </url>
         <url>
 			<loc>https://hotwebcam.github.io/blog.html</loc>
-			<lastmod>2019-04-22</lastmod>
+			<lastmod>2019-04-24</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.8</priority>
         </url>
         <url>
 			<loc>https://hotwebcam.github.io/ru_blog.html</loc>
-			<lastmod>2019-04-22</lastmod>
+			<lastmod>2019-04-24</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.8</priority>
         </url>
@@ -123,6 +123,18 @@
         <url>
 			<loc>https://hotwebcam.github.io/blog/ru_bongacams_android.html</loc>
 			<lastmod>2019-04-22</lastmod>
+			<changefreq>never</changefreq>
+			<priority>0.3</priority>
+        </url>
+        <url>
+			<loc>https://hotwebcam.github.io/blog/history_webcam_and_gift.html</loc>
+			<lastmod>2019-04-24</lastmod>
+			<changefreq>never</changefreq>
+			<priority>0.3</priority>
+        </url>
+        <url>
+			<loc>https://hotwebcam.github.io/blog/ru_history_webcam_and_gift.html</loc>
+			<lastmod>2019-04-24</lastmod>
 			<changefreq>never</changefreq>
 			<priority>0.3</priority>
         </url>
