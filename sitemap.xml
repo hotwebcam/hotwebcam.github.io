@@ -186,4 +186,16 @@
 			<changefreq>never</changefreq>
 			<priority>0.3</priority>
         </url>
+        <url>
+			<loc>https://hotwebcam.github.io/blog/history_webcam_models_1.html</loc>
+			<lastmod>2019-05-13</lastmod>
+			<changefreq>never</changefreq>
+			<priority>0.3</priority>
+        </url>
+        <url>
+			<loc>https://hotwebcam.github.io/blog/ru_history_webcam_models_1.html</loc>
+			<lastmod>2019-05-13</lastmod>
+			<changefreq>never</changefreq>
+			<priority>0.3</priority>
+        </url>
     </urlset>
