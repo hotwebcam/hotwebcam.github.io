@@ -20,13 +20,13 @@
         </url>
         <url>
 			<loc>https://hotwebcam.github.io/blog.html</loc>
-			<lastmod>2019-05-08</lastmod>
+			<lastmod>2019-05-13</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.8</priority>
         </url>
         <url>
 			<loc>https://hotwebcam.github.io/ru_blog.html</loc>
-			<lastmod>2019-05-08</lastmod>
+			<lastmod>2019-05-13</lastmod>
 			<changefreq>weekly</changefreq>
 			<priority>0.8</priority>
         </url>
@@ -195,6 +195,18 @@
         <url>
 			<loc>https://hotwebcam.github.io/blog/ru_history_webcam_models_1.html</loc>
 			<lastmod>2019-05-13</lastmod>
+			<changefreq>never</changefreq>
+			<priority>0.3</priority>
+        </url>
+        <url>
+			<loc>https://hotwebcam.github.io/blog/affiliate_bonga_2019.html</loc>
+			<lastmod>2019-05-17</lastmod>
+			<changefreq>never</changefreq>
+			<priority>0.3</priority>
+        </url>
+        <url>
+			<loc>https://hotwebcam.github.io/blog/ru_affiliate_bonga_2019.html</loc>
+			<lastmod>2019-05-17</lastmod>
 			<changefreq>never</changefreq>
 			<priority>0.3</priority>
         </url>
