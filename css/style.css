@@ -49,6 +49,13 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 30px 0;
 }
 
+summary {
+  color: #212121;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 20px;
+  margin: 0 0 30px 0;
+}
+
 figure {
   margin-bottom: 2em;
 }
@@ -309,6 +316,24 @@ figure {
   width: 100%;
 }
 
+#partner-header-section {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: #222831;
+}
+
+.nav-header-partner {
+  margin-top: 40px;
+  margin-bottom: 20;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
 #fh5co-logo {
   z-index: 2;
   font-size: 38px;
@@ -481,6 +506,8 @@ figure {
 #fh5co-programs-section,
 #fh5co-schedule-section,
 #fh5co-team-section,
+#fh5co-models-section,
+#fh5co-partners-section,
 #fh5co-blog-section,
 #fh5co-contact {
   padding: 7em 0;
@@ -489,6 +516,8 @@ figure {
   #fh5co-programs-section,
   #fh5co-schedule-section,
   #fh5co-team-section,
+  #fh5co-models-section,
+  #fh5co-partners-section,
   #fh5co-blog-section,
   #fh5co-contact {
     padding: 4em 0;
@@ -626,6 +655,34 @@ figure {
   opacity: .2;
 }
 
+.fh5co-background {
+  height: 350px;
+}
+
+.fh5co-background {
+  background-color: #fff;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  box-shadow: 0 0 7px;
+}
+
+.fh5co-background .fh5co-intro h1 {
+  color: #000;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-background .fh5co-intro h1 {
+    font-size: 30px;
+  }
+}
+.fh5co-background .fh5co-intro p {
+  color: #848484;
+}
+
+
 @media screen and (max-width: 768px) {
   .fh5co-parallax {
     height: inherit;
@@ -665,89 +722,6 @@ figure {
 .fh5co-table-cell {
   display: table-cell;
   vertical-align: middle;
-}
-
-.fh5co-pricing {
-  padding: 7em 0;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-pricing {
-    padding: 3em 0;
-  }
-}
-.fh5co-pricing .pricing {
-  display: block;
-  float: left;
-  margin-bottom: 30px;
-}
-.fh5co-pricing .price-box {
-  text-align: center;
-  padding: 30px;
-  background: #fff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  margin-bottom: 40px;
-  position: relative;
-}
-.fh5co-pricing .price-box.popular .btn-select-plan {
-  background: #4CB648;
-}
-.fh5co-pricing .price-box.popular .price {
-  color: #4CB648;
-}
-.fh5co-pricing .price-box .btn-select-plan {
-  padding: 10px 20px;
-  background: #5bc0de;
-  color: #fff;
-}
-.fh5co-pricing .price-box .classes {
-  padding: 0;
-}
-.fh5co-pricing .price-box .classes li {
-  display: block;
-  list-style: none;
-  margin: 0;
-  font-size: 16px;
-  padding: 8px 10px;
-}
-.fh5co-pricing .price-box .classes li.color {
-  background: rgba(0, 0, 0, 0.04);
-}
-.fh5co-pricing .pricing-plan {
-  margin: 0 0 50px 0;
-  padding: 0;
-  font-size: 13px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #888f94;
-}
-.fh5co-pricing .pricing-plan.pricing-plan-offer {
-  margin-bottom: 24px;
-}
-.fh5co-pricing .pricing-plan span {
-  display: block;
-  margin-top: 10px;
-  margin-bottom: 0;
-  color: #d5d8db;
-}
-.fh5co-pricing .price {
-  font-size: 72px;
-  color: #6d6d6d;
-  line-height: 50px;
-}
-.fh5co-pricing .price .currency {
-  font-size: 30px;
-  top: -0.9em;
-  padding-right: 10px;
-}
-.fh5co-pricing .price small {
-  font-size: 13px;
-  display: block;
-  text-transform: uppercase;
-  color: #888f94;
 }
 
 .team-section-grid {
@@ -813,51 +787,7 @@ figure {
   margin-bottom: 50px;
 }
 
-#fh5co-contact .contact-info {
-  margin: 0;
-  padding: 0;
-}
-#fh5co-contact .contact-info li {
-  list-style: none;
-  margin: 0 0 20px 0;
-  position: relative;
-  padding-left: 40px;
-}
-#fh5co-contact .contact-info li i {
-  position: absolute;
-  top: .3em;
-  left: 0;
-  font-size: 22px;
-  color: rgba(0, 0, 0, 0.2);
-}
-#fh5co-contact .contact-info li a {
-  font-weight: 400 !important;
-  color: rgba(0, 0, 0, 0.3);
-}
-#fh5co-contact .form-control {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  -ms-box-shadow: none;
-  -o-box-shadow: none;
-  box-shadow: none;
-  border: none;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  font-size: 18px;
-  font-weight: 400;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  border-radius: 0px;
-}
-#fh5co-contact .form-control:focus, #fh5co-contact .form-control:active {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-}
-#fh5co-contact input[type="text"] {
-  height: 50px;
-}
-#fh5co-contact .form-group {
-  margin-bottom: 30px;
-}
+
 
 .section-title {
   font-weight: 900;
@@ -991,81 +921,33 @@ figure {
 
 #footer {
   background: #222831;
-  padding: 60px 0 40px;
+  padding: 40px 0 20px;
 }
 #footer .section-title {
   color: rgba(255, 255, 255, 0.8);
 }
 #footer .contact-info {
-  margin: 0 0 60px 0;
+  margin: 0 0 0px 20px;
   padding: 0;
 }
 #footer .contact-info li {
   list-style: none;
-  margin: 0 0 20px 0;
+  margin: 0 0 0px 0;
   position: relative;
+  font-size: 14px;
   padding-left: 0px;
 }
 #footer .contact-info li i {
   position: absolute;
   top: 5px;
   left: 0;
-  font-size: 22px;
+  font-size: 14px;
   color: rgba(255, 255, 255, 0.7);
 }
 #footer .contact-info li a {
-  color: rgba(255, 255, 255, 0.6);
+  color: #4cb648;
 }
-#footer .contact-form .form-group input[type="name"],
-#footer .contact-form .form-group input[type="text"],
-#footer .contact-form .form-group input[type="email"],
-#footer .contact-form .form-group textarea {
-  font-size: 16px;
-}
-#footer .contact-form .form-group input[type="name"]::-webkit-input-placeholder,
-#footer .contact-form .form-group input[type="text"]::-webkit-input-placeholder,
-#footer .contact-form .form-group input[type="email"]::-webkit-input-placeholder,
-#footer .contact-form .form-group textarea::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.5);
-}
-#footer .contact-form .form-group input[type="name"]:-moz-placeholder,
-#footer .contact-form .form-group input[type="text"]:-moz-placeholder,
-#footer .contact-form .form-group input[type="email"]:-moz-placeholder,
-#footer .contact-form .form-group textarea:-moz-placeholder {
-  /* Firefox 18- */
-  color: rgba(255, 255, 255, 0.5);
-}
-#footer .contact-form .form-group input[type="name"]::-moz-placeholder,
-#footer .contact-form .form-group input[type="text"]::-moz-placeholder,
-#footer .contact-form .form-group input[type="email"]::-moz-placeholder,
-#footer .contact-form .form-group textarea::-moz-placeholder {
-  /* Firefox 19+ */
-  color: rgba(255, 255, 255, 0.5);
-}
-#footer .contact-form .form-group input[type="name"]:-ms-input-placeholder,
-#footer .contact-form .form-group input[type="text"]:-ms-input-placeholder,
-#footer .contact-form .form-group input[type="email"]:-ms-input-placeholder,
-#footer .contact-form .form-group textarea:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.5);
-}
-#footer .contact-form .form-group input {
-  color: rgba(255, 255, 255, 0.5);
-  background: transparent;
-  border: none;
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: none;
-}
-#footer .contact-form .form-group textarea {
-  color: rgba(255, 255, 255, 0.5);
-  background: transparent;
-  border: none;
-  background: rgba(0, 0, 0, 0.2);
-  box-shadow: none;
-}
-#footer #btn-submit {
-  color: rgba(255, 255, 255, 0.9) !important;
-  background: #4CB648 !important;
-}
+
 #footer .copy-right {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 50px;
