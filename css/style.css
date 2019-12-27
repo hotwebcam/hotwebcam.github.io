@@ -160,9 +160,9 @@ figure {
     padding-right: 15px;
   }
 }
-.fh5co-cover .desc h2 {
+.fh5co-cover .desc h3 {
   color: #fff;
-  font-size: 55px;
+  font-size: 40px;
   font-weight: 300;
   margin-bottom: 10px;
   line-height: 60px;
@@ -193,6 +193,35 @@ figure {
 .fh5co-cover .desc span a.fh5co-site-name {
   padding-bottom: 2px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.fh5co-cover .desc .app {
+  position: relative;
+  width: 100%;
+}
+
+.fh5co-cover .desc .app p {
+  padding-bottom: 0px;
+  font-size: 15px;
+}
+
+.fh5co-cover .desc .app span {
+  padding-bottom: 0px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fh5co-cover .desc .app span a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fh5co-cover .desc .app  .btn {
+  padding: 0.3em 1em;
+  opacity: .8;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /* Superfish Override Menu */
@@ -327,8 +356,26 @@ figure {
 }
 
 .nav-header-partner {
-  margin-top: 40px;
-  margin-bottom: 20;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+#video-chat-header-section {
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: #222831;
+}
+
+.nav-header-video-chat {
+  margin-top: 20px;
+  margin-bottom: 20px;
   position: relative;
   float: left;
   width: 100%;
@@ -722,6 +769,45 @@ figure {
 .fh5co-table-cell {
   display: table-cell;
   vertical-align: middle;
+}
+
+.video-chat {
+  margin-top: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+
+.video_chat-section-grid {
+  position: relative;
+  background-size: 540px;
+  margin-bottom: 15px;
+  height: 340px;
+}
+
+.video_chat-section-grid .desc {
+  position: relative;
+  margin: 0;
+  top: 45%;
+}
+
+.video_chat-section-grid .desc h3 {
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 0px;
+}
+
+.video_chat-section-grid .desc span {
+  display: block;
+  color: #e6e6e6;
+  font-size: 18px;
+}
+
+.video_chat-section-grid a {
+  margin-top: 15px;
+}
+
+.description-section p{
+  font-size: 12px;
 }
 
 .team-section-grid {
